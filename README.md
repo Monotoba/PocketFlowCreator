@@ -3,7 +3,9 @@
 [![Tests](https://github.com/Monotoba/PocketFlowCreator/actions/workflows/tests.yml/badge.svg)](https://github.com/Monotoba/PocketFlowCreator/actions/workflows/tests.yml)
 [![Build](https://github.com/Monotoba/PocketFlowCreator/actions/workflows/build.yml/badge.svg)](https://github.com/Monotoba/PocketFlowCreator/actions/workflows/build.yml)
 [![Security](https://github.com/Monotoba/PocketFlowCreator/actions/workflows/security.yml/badge.svg)](https://github.com/Monotoba/PocketFlowCreator/actions/workflows/security.yml)
+[![GitHub release](https://img.shields.io/github/v/release/Monotoba/PocketFlowCreator)](https://github.com/Monotoba/PocketFlowCreator/releases/latest)
 [![PyPI version](https://img.shields.io/pypi/v/pocketflow-creator.svg)](https://pypi.org/project/pocketflow-creator/)
+[![PyPI downloads](https://img.shields.io/pypi/dm/pocketflow-creator.svg)](https://pypi.org/project/pocketflow-creator/)
 [![Python versions](https://img.shields.io/pypi/pyversions/pocketflow-creator.svg)](https://pypi.org/project/pocketflow-creator/)
 [![License: BSD-2-Clause](https://img.shields.io/badge/License-BSD--2--Clause-blue.svg)](https://opensource.org/license/bsd-2-clause)
 
