@@ -9,6 +9,7 @@ import sys
 import tempfile
 import uuid
 from collections.abc import Sequence
+from functools import partial
 from pathlib import Path
 from typing import Any
 
@@ -833,7 +834,7 @@ class MainWindow(QMainWindow):
             self._recent_menu.addAction("(none)").setEnabled(False)
             return
         for path in self._recent:
-            self._recent_menu.addAction(path.name, lambda p=path: self._load_project_from_path(p))
+            self._recent_menu.addAction(path.name, partial(self._load_project_from_path, path))
 
     # -------------------------------------------------- temp-project helpers
 

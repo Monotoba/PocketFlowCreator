@@ -7,6 +7,14 @@ Entries are ordered newest-first within each version.
 
 ## [Unreleased]
 
+### Changed
+
+- Re-licensed PocketFlow Creator under the BSD 2-Clause License.
+- Kept Ruff focused on Python source files so documentation examples retain their intentional formatting.
+- Replaced the recent-project callback lambda with an explicitly bound callback for reliable type checking.
+- Added release tag validation and automatic wheel/source archive attachments to GitHub releases.
+- Updated the official GitHub checkout and Python setup actions used by CI.
+
 ---
 
 ## [0.3.2] — 2026-06-11

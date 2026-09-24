@@ -5,9 +5,18 @@
 [![Security](https://github.com/Monotoba/PocketFlowCreator/actions/workflows/security.yml/badge.svg)](https://github.com/Monotoba/PocketFlowCreator/actions/workflows/security.yml)
 [![PyPI version](https://img.shields.io/pypi/v/pocketflow-creator.svg)](https://pypi.org/project/pocketflow-creator/)
 [![Python versions](https://img.shields.io/pypi/pyversions/pocketflow-creator.svg)](https://pypi.org/project/pocketflow-creator/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: BSD-2-Clause](https://img.shields.io/badge/License-BSD--2--Clause-blue.svg)](https://opensource.org/license/bsd-2-clause)
 
 An independent PySide6 desktop application for visually designing, testing, and exporting [PocketFlow](https://github.com/The-Pocket/PocketFlow)-style LLM workflows and agentic applications. Design flows on a live canvas, run them against any supported LLM provider (local model hosts like Ollama, cloud APIs like OpenAI/Claude/Gemini, or mock providers for testing), inspect shared-store state step-by-step, and export a runnable Python package — all from one IDE-like GUI.
+
+## Install and launch
+
+```bash
+pip install pocketflow-creator
+pocketflow-creator
+```
+
+Requires Python 3.10 or newer. No LLM account is required to explore the designer or use the built-in mock provider. See [Quick Start](#quick-start) for source installation and platform-specific setup.
 
 ## Status — v0.3.2 (comprehensive standalone support)
 
@@ -326,4 +335,4 @@ Lint policy: 0 ruff errors, 0 mypy errors. Pyright "possibly unbound" warnings i
 
 ## License
 
-MIT — see [LICENSE](https://github.com/Monotoba/PocketFlowCreator/blob/main/LICENSE).
+BSD-2-Clause — use, modify, and distribute the software with attribution. See [LICENSE](https://github.com/Monotoba/PocketFlowCreator/blob/main/LICENSE).

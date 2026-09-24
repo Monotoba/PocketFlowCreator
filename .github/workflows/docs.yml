@@ -21,7 +21,7 @@ jobs:
     runs-on: ubuntu-latest
     name: Markdown Linting
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
       - name: Lint Markdown
         uses: nosborn/github-action-markdown-cli@v3.3.0
@@ -34,7 +34,7 @@ jobs:
     runs-on: ubuntu-latest
     name: Check Documentation Links
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
       - name: Check links in Markdown files
         uses: gaurav-nelson/github-action-markdown-link-check@v1
@@ -49,7 +49,7 @@ jobs:
     runs-on: ubuntu-latest
     name: Verify Documentation Files
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
       - name: Check key documentation files exist
         run: |

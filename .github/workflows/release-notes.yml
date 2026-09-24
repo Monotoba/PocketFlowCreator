@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     name: Validate Release
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
         with:
           fetch-depth: 0
 
@@ -58,12 +58,12 @@ jobs:
     runs-on: ubuntu-latest
     name: Generate Release Notes
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
         with:
           fetch-depth: 0
 
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v7
         with:
           python-version: '3.11'
 
